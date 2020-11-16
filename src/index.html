@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__name">
+                <h3>Товары</h3>
+            </div>
+            <div class="header__add">
+                <a href="#">+</a>
+            </div>
+        </header>
+        <div class="list">
+            <div class="list__header">
+                <div class="header__column">
+                    <span>Название</span>
+                </div>
+                <div class="header__column">
+                    <span>Стоимость</span>
+                </div>
+                <div class="header__column">
+                    <span>Действия</span>
+                </div>
+            </div> 
+            <div class="products">
+            </div>
+        </div>
+        <form class="modal-form" novalidate>
+            <div class="form__row">
+                <label for="form__name">Название</label>
+                <input type="text" id="form__name" required>
+            </div>
+            <div class="form__row">
+                <label for="form__price">Стоимость</label>
+                <input type="text" id="form__price" required>
+            </div>
+            <div class="form__buttons">
+                <button type='submit' class="button-save">Сохранить</button>
+                <button type='button' class="button-cancel">Отмена</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
